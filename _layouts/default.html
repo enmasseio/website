@@ -1,12 +1,12 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-  <title>enmasse.io | a toolbox to create large-scale multi-agent systems</title>
+  <title>enmasse.io | a toolbox for creating large-scale multi-agent systems</title>
 
   <meta http-equiv="content-type" content="text/html; charset=UTF-8">
 
   <meta name="keywords" content="enmasse, agent, multi-agent, large-scale, simulation">
-  <meta name="description" content="A toolbox to create large-scale multi-agent systems">
+  <meta name="description" content="A toolbox for creating large-scale multi-agent systems">
 
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
@@ -30,18 +30,41 @@
   <div class="title">
     <a href="http://enmasse.io">
       <div class="logo">
-        <img src="img/logo/enmasse_64x64.png">
+        <img src="img/logo/enmasse_2_160x160.png">
       </div>
       <div class="main">
         Enmasse
         <div class="sub">
-          A toolbox to create large-scale multi-agent systems
+          A toolbox for creating large-scale multi-agent systems
         </div>
       </div>
     </a>
   </div>
 
   {{content}}
+
+  <script>
+    // TODO: cleanup temporary script to test different logo's
+    function logo1() {
+      document.querySelector('.logo img').src = 'img/logo/enmasse_64x64.png';
+      document.querySelector('.logo').style.top = '4px';
+      document.querySelector('.logo').style.left = '0';
+    }
+
+    function logo2() {
+      document.querySelector('.logo img').src = 'img/logo/enmasse_2_160x160.png';
+      document.querySelector('.logo').style.top = '-44px';
+      document.querySelector('.logo').style.left = '-48px';
+    }
+
+    if (document.location.search.indexOf('logo1') !== -1) {
+      logo1();
+    }
+
+    if (document.location.search.indexOf('logo2') !== -1) {
+      logo2();
+    }
+  </script>
 
 </div>
 

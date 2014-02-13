@@ -31,7 +31,7 @@ body {
 #page.small {
   width: auto;
   margin: 5px 5px 0 5px;
-  padding: 4%;
+  padding: 4% 4% 12% 4%;
 }
 
 table {
@@ -48,10 +48,11 @@ div.title {
   position: relative;
 }
 
-div.title .logo {
+div.title div.logo {
   position: absolute;
   border: none;
-  top: 4px;
+  top: -44px;
+  left: -48px;
 }
 
 div.title a {
@@ -107,7 +108,6 @@ h2 {
 }
 
 #footer a:hover {
-
   color: #ffe100;
   text-decoration: underline;
 }
