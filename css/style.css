@@ -1,0 +1,113 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300);
+
+body {
+  background: #313131 url('../img/escheresque_ste/escheresque_ste.png') repeat;
+  height: 100%;
+  width: 100%;
+  max-width: 100%;
+  padding: 0;
+  margin: 0;
+
+  font-family: 'open sans', sans-serif;
+  font-weight: 400;
+  font-size: 0.9em;
+  line-height: 1.9em;
+  color: #363636;
+}
+
+#page {
+  position: relative;
+  width: 640px;
+  min-height: 640px;
+  margin: 20px auto 0 auto;
+  background-color: white;
+  padding: 40px 50px 100px 50px;
+  border: 1px solid lightgray;
+  border-radius: 3px;
+
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
+}
+
+#page.small {
+  width: auto;
+  margin: 5px 5px 0 5px;
+  padding: 4%;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+table td {
+  padding: 5px 20px 5px 0;
+}
+
+div.title {
+  margin: 20px 0 40px 0;
+  color: #8FBA1F;
+  position: relative;
+}
+
+div.title .logo {
+  position: absolute;
+  border: none;
+  top: 4px;
+}
+
+div.title a {
+  text-decoration: none;
+  color: #8FBA1F;
+}
+
+div.title .main {
+  margin-left: 72px;
+  position: relative;
+  font-size: 48px;
+  line-height: 48px;
+  font-weight: 300;
+}
+
+div.title .sub {
+  margin: 10px 0 0 4px;
+  font-size: 15px;
+  line-height: 15px;
+}
+
+p {
+  margin: 1em 0;
+}
+
+img {
+  border: none;
+}
+
+a {
+  color: #ff9c00;
+}
+
+a:hover {
+  color: #ffcc00;
+}
+
+h2 {
+  font-weight: 400;
+  margin: 2em 0 1em 0;
+}
+
+#footer {
+  text-transform: lowercase;
+  color: #ffcc00;
+  text-align: center;
+  margin: 5px auto 30px auto;
+}
+
+#footer a {
+  color: #ffcc00;
+  text-decoration: none;
+}
+
+#footer a:hover {
+
+  color: #ffe100;
+  text-decoration: underline;
+}
