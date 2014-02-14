@@ -29,17 +29,22 @@ Enmasse consists of a set of independent modules, which can be put together like
 
 Enmasse will contain the following components:
 
-- An actor module. An actor can send and receive messages to/from other actors.
-- A conversation module. Advanced, dynamic communication flows between message based actors.<br>
-  Github: [enmasseio/babble](https://github.com/enmasseio/babble)
-- A reasoning engine (knowledge base). Store facts and relations between these facts, and infer new truths from this knowledge.
-- A distributed, peer-to-peer messaging module. Send messages between peers in a dynamic network. Broadcast messages via publish/subscribe.
-- A distributed, peer-to-peer network with remote objects (such as agents). Creates a proxy for remote objects, layered on top of the a messaging infrastructure.<br>
-  Github: [enmasseio/remoteobjects](https://github.com/enmasseio/remoteobjects)
-- A load-balancing module. Does do load-balancing, migration, auto-repair, and fault-tolerance of remote objects in a distributed network.
-- A JSON-RPC module. Expose your remote objects via a JSON-RPC API, enabling intercommunication between applications.
-- A simulation module. Run a simulation with agents in discrete time steps.
-- A management module. A web interface enabling real time logging, debugging, and management of agents.
+- Logical agents
+  - An actor module. An actor can send and receive messages to/from other actors.
+  - A conversation module. Advanced, dynamic communication flows between message based actors.<br>
+    Github: [enmasseio/babble](https://github.com/enmasseio/babble)
+  - A reasoning engine (knowledge base). Store facts and relations between these facts, and infer new truths from this knowledge.
+- Communication
+  - A distributed, peer-to-peer messaging module. Send messages between peers in a dynamic network. Broadcast messages via publish/subscribe.
+  - A distributed, peer-to-peer network with remote objects (such as agents). Creates a proxy for remote objects, layered on top of the a messaging infrastructure.<br>
+    Github: [enmasseio/remoteobjects](https://github.com/enmasseio/remoteobjects)
+  - A JSON-RPC module. Expose your remote objects via a JSON-RPC API, enabling intercommunication between applications.
+- Environment
+  - A load-balancing module. Does do load-balancing, migration, auto-repair, and fault-tolerance of remote objects in a distributed network.
+  - A management module. A web interface enabling real time logging, debugging, and management of agents.
+- Simulation
+  - A discrete time module. Agents synchronize their actions against a discrete, artificial simulation time, giving deterministic results.
+  - A physics engine. Agents know from each other where they are in a simulated physical environment, and can reckon with each other.
 
 
 ## Source code
