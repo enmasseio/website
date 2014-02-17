@@ -38,6 +38,7 @@ Enmasse will contain the following components:
   - A decision engine. Determine the best actions to take in order to reach a given goal.
 - Communication
   - A distributed, peer-to-peer messaging module. Send messages between peers in a dynamic network. Broadcast messages via publish/subscribe.
+    Github: [enmasseio/mbus](https://github.com/enmasseio/mbus)
   - A distributed, peer-to-peer network with remote objects (such as agents). Creates a proxy for remote objects, layered on top of the a messaging infrastructure.<br>
     Github: [enmasseio/remoteobjects](https://github.com/enmasseio/remoteobjects)
   - A JSON-RPC module. Expose your remote objects via a JSON-RPC API, enabling intercommunication between applications.
