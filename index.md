@@ -31,7 +31,7 @@ Enmasse will contain the following components:
 
 - Logical agents
   - An actor module. An actor can send and receive messages to/from other actors.<br>
-    Github: [enmasseio/actors](https://github.com/enmasseio/actors)
+    Github: [enmasseio/simple-actors](https://github.com/enmasseio/simple-actors)
   - A conversation module. Advanced, dynamic communication flows between message based actors.<br>
     Github: [enmasseio/babble](https://github.com/enmasseio/babble)
   - A reasoning engine (knowledge base). Store facts and relations between these facts, and infer new truths from this knowledge.
