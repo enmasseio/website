@@ -46,7 +46,8 @@ Enmasse will contain the following components:
   - A load-balancing module. Does do load-balancing, migration, auto-repair, and fault-tolerance of remote objects in a distributed network.
   - A management module. A web interface enabling real time logging, debugging, and management of agents.
 - Simulation
-  - A discrete time module. Agents synchronize their actions against a discrete, artificial simulation time, giving deterministic results.
+  - A discrete time module. Agents synchronize their actions against a discrete, artificial simulation time, giving deterministic results.<br>
+    Github: [enmasseio/hypertimer](https://github.com/enmasseio/hypertimer)
   - A physics engine. Agents know from each other where they are in a simulated physical environment, and can reckon with each other.
 
 
